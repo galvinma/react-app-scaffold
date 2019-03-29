@@ -1,0 +1,48 @@
+.linkStyle, .linkStyle:hover
+{
+  color: #000000;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.logo
+{
+  height: 50px;
+  cursor: pointer;
+}
+
+.logoText
+{
+  font-size: 36px;
+}
+
+.navbar
+{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  height: 80px !important;
+  z-index: 100 !important;
+}
+
+.navbar-left
+{
+  margin-right: auto;
+  margin-left: 50px;
+  width: 50%;
+}
+
+.navbar-left-entries
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navbar-right
+{
+  margin-left: auto;
+  width: auto;
+  margin-right: 50px;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import history from './history';
 
 // pages
 import Home from './Pages/Home/Home'
@@ -21,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <BrowserRouter history={history}>
           <Switch>
             <Route path="/" exact component={_Home}/>
             <Route component={_NotFound} />
